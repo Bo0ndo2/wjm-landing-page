@@ -4,6 +4,13 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "WJM Company For Telecommunications and IT",
   description: "End-to-end telecom, IT, cloud, and software solutions.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
